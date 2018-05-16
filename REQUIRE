@@ -1,3 +1,14 @@
-julia 0.2-
-StatsBase
+julia 0.6
 Reexport
+CategoricalArrays
+Clustering
+CSV
+DataFrames
+Distances
+Distributions
+GLM
+HypothesisTests
+KernelDensity
+MultivariateStats
+StatsBase
+TimeSeries

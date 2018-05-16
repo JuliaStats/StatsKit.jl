@@ -1,4 +1,15 @@
 module Stats
     using Reexport
+    @reexport using CategoricalArrays
+    @reexport using Clustering
+    @reexport using CSV
+    @reexport using DataFrames
+    @reexport using Distances
+    @reexport using Distributions
+    @reexport using GLM
+    @reexport using HypothesisTests
+    @reexport using KernelDensity
+    @reexport using MultivariateStats
     @reexport using StatsBase
+    @reexport using TimeSeries
 end
