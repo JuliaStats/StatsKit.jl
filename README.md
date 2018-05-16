@@ -7,6 +7,7 @@ using Stats
 ```
 
 Currently included packages are:
+* [Bootstrap](https://github.com/juliangehring/Bootstrap.jl)
 * [CategoricalArrays](https://github.com/JuliaData/CategoricalArrays.jl)
 * [Clustering](https://github.com/JuliaStats/Clustering.jl)
 * [CSV](https://github.com/JuliaData/CSV.jl)
@@ -16,6 +17,7 @@ Currently included packages are:
 * [GLM](https://github.com/JuliaStats/GLM.jl)
 * [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl)
 * [KernelDensity](https://github.com/JuliaStats/KernelDensity.jl)
+* [Loess](https://github.com/JuliaStats/Loess.jl)
 * [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl)
 * [StatsBase](https://github.com/JuliaStats/StatsBase.jl)
 * [TimeSeries](https://github.com/JuliaStats/TimeSeries.jl)
