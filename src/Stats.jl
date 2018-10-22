@@ -12,6 +12,7 @@ module Stats
     @reexport using KernelDensity
     @reexport using Loess
     @reexport using MultivariateStats
+    @reexport using Statistics
     @reexport using StatsBase
     @reexport using TimeSeries
 end

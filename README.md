@@ -6,7 +6,8 @@ This is a convenience meta-package which allows loading essential packages for s
 using Stats
 ```
 
-Currently included packages are:
+Currently this loads the [Statistics](https://docs.julialang.org/en/stable/stdlib/Statistics/)
+standard library module, and the following packages:
 * [Bootstrap](https://github.com/juliangehring/Bootstrap.jl)
 * [CategoricalArrays](https://github.com/JuliaData/CategoricalArrays.jl)
 * [Clustering](https://github.com/JuliaStats/Clustering.jl)
