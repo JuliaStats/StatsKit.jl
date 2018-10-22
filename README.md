@@ -1,6 +1,8 @@
 Stats.jl
 ========
 
+[![Build Status](https://travis-ci.org/JuliaStats/Stats.jl.svg?branch=master)](https://travis-ci.org/JuliaStats/Stats.jl)
+
 This is a convenience meta-package which allows loading essential packages for statistics in one command:
 ```julia
 using Stats
