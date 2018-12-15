@@ -1,4 +1,4 @@
-module Stats
+module StatsKit
     using Reexport
     @reexport using Bootstrap
     @reexport using CategoricalArrays

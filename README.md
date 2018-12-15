@@ -1,11 +1,11 @@
-Stats.jl
+StatsKit.jl
 ========
 
-[![Build Status](https://travis-ci.org/JuliaStats/Stats.jl.svg?branch=master)](https://travis-ci.org/JuliaStats/Stats.jl)
+[![Build Status](https://travis-ci.org/JuliaStats/StatsKit.jl.svg?branch=master)](https://travis-ci.org/JuliaStats/StatsKit.jl)
 
 This is a convenience meta-package which allows loading essential packages for statistics in one command:
 ```julia
-using Stats
+using StatsKit
 ```
 
 Currently this loads the [Statistics](https://docs.julialang.org/en/stable/stdlib/Statistics/)

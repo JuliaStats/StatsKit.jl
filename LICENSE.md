@@ -1,4 +1,4 @@
-Stats.jl is licensed under the MIT License:
+StatsKit.jl is licensed under the MIT License:
 
 > Copyright (c) 2014: The JuliaStats team and other contributors.
 >
