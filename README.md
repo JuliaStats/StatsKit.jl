@@ -26,5 +26,5 @@ standard library module, and the following packages:
 * [TimeSeries](https://github.com/JuliaStats/TimeSeries.jl)
 
 
-This package is intended for users of statistics packages. Packages themselves should continue
+This package is intended for users of statistics packages who want to get started with one import. Packages themselves should continue
 to list individual packages in they dependencies rather than `StatsKit` as a whole.
