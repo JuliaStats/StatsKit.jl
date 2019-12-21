@@ -23,6 +23,7 @@ standard library module, and the following packages:
 * [Loess](https://github.com/JuliaStats/Loess.jl)
 * [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl)
 * [StatsBase](https://github.com/JuliaStats/StatsBase.jl)
+* [ShiftedArrays](https://github.com/JuliaStats/ShiftedArrays.jl)
 * [TimeSeries](https://github.com/JuliaStats/TimeSeries.jl)
 
 
