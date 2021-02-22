@@ -10,6 +10,7 @@ using StatsKit
 
 Currently this loads the [Statistics](https://docs.julialang.org/en/stable/stdlib/Statistics/)
 standard library module, and the following packages:
+
 * [Bootstrap](https://github.com/juliangehring/Bootstrap.jl)
 * [CategoricalArrays](https://github.com/JuliaData/CategoricalArrays.jl)
 * [Clustering](https://github.com/JuliaStats/Clustering.jl)
@@ -22,10 +23,10 @@ standard library module, and the following packages:
 * [KernelDensity](https://github.com/JuliaStats/KernelDensity.jl)
 * [Loess](https://github.com/JuliaStats/Loess.jl)
 * [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl)
+* [MixedModels](https://github.com/JuliaStats/MixedModels.jl)
 * [StatsBase](https://github.com/JuliaStats/StatsBase.jl)
 * [ShiftedArrays](https://github.com/JuliaArrays/ShiftedArrays.jl)
 * [TimeSeries](https://github.com/JuliaStats/TimeSeries.jl)
-
 
 This package is intended for users of statistics packages who want to get started with one import. Packages themselves should continue
 to list individual packages in they dependencies rather than `StatsKit` as a whole.
