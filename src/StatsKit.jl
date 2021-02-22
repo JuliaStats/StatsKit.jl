@@ -11,6 +11,7 @@ module StatsKit
     @reexport using HypothesisTests
     @reexport using KernelDensity
     @reexport using Loess
+    @reexport using MixedModels
     @reexport using MultivariateStats
     @reexport using ShiftedArrays
     @reexport using Statistics
