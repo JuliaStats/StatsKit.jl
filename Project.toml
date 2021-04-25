@@ -1,5 +1,6 @@
 name = "StatsKit"
 uuid = "2cb19f9e-ec4d-5c53-8573-a4542a68d3f0"
+version = "0.3.1"
 
 [deps]
 Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
