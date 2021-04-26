@@ -14,12 +14,15 @@ for m in [Bootstrap, CategoricalArrays, Clustering, CSV, DataFrames,
           Loess, MultivariateStats, MixedModels, StatsBase, ShiftedArrays, TimeSeries]
     for name in names(m)
         # Work around undefined exports:
-        # JuliaStats/Clustering.jl#210,
+        # JuliaStats/StatsBase#663,
+        # JuliaStats/Clustering.j#210,
+        # JuliaStats/GLM.jl#405,
         # JuliaStats/StatsModels.jl#218,
         # JuliaStats/MultivariateStats.jl#142,
-        # JuliaArrays/ShiftedArrays.jl#42
-        name in (:kmeans_opts, :LagTerm, :dropterm,
-                 :invsqrtm!, :reduce_vec, :mapreduce_vec) && continue
+        # JuliaArrays/ShiftedArrays.jl#42,
+        # JuliaStats/TimeSeries.jl#487
+        name in (:findat, :kmeans_opts, :Gaussian, :LagTerm, :dropterm,
+                 :invsqrtm!, :wmean!, :reduce_vec, :mapreduce_vec, :find) && continue
         push!(objects, getproperty(m, name) => name)
     end
 end
