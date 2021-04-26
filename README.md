@@ -1,7 +1,7 @@
 StatsKit.jl
 ========
 
-[![Build Status](https://travis-ci.org/JuliaStats/StatsKit.jl.svg?branch=master)](https://travis-ci.org/JuliaStats/StatsKit.jl)
+  [![Build status](https://github.com/JuliaStats/StatsKit.jl/workflows/CI/badge.svg)](https://github.com/JuliaStats/StatsKit.jl/actions?query=workflow%3ACI+branch%3Amaster)
 
 This is a convenience meta-package which allows loading essential packages for statistics in one command:
 ```julia
