@@ -8,7 +8,7 @@ This is a convenience meta-package which allows loading essential packages for s
 using StatsKit
 ```
 
-Currently this loads the [Statistics](https://docs.julialang.org/en/stable/stdlib/Statistics/)
+Currently this loads the [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/)
 standard library module, and the following packages:
 
 * [Bootstrap](https://github.com/juliangehring/Bootstrap.jl)
